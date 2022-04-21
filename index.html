@@ -1,21 +1,60 @@
 <head>
   <title>World Zero</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a href="https://discord.worldzero.ml/">Discord</a>
+  <div class="center-div">
+    <ul>
+      <li><a id="a1" href="https://discord.worldzero.ml/">Discord</a></li>
+      <li><a id="a2" href="https://store.worldzero.ml/">Store</a></li>
+    </ul>
+  </div>
 </body>
 <style>
   body {
      background-color: #3d3c3a;
   }
 
-  a {
+  ul {
+    list-style-type: none;
+  }
+
+  .center-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  li {
+    margin-bottom: 25px;
+    margin-right: 25px;
+  }
+
+  #a1 {
     color: #FFF;
     text-decoration: none !important;
     -webkit-transition: color 0.7s;
+    font-family: 'DM Sans';
+    font-size: 35px;
   } 
 
-  a:hover {
-    color: rgb(42, 149, 113);
+  #a1:hover {
+    color: rgb(22, 99, 187);
+  }
+
+  #a2 {
+    color: #FFF;
+    text-decoration: none !important;
+    -webkit-transition: color 0.7s;
+    font-family: 'DM Sans';
+    font-size: 35px;
+  } 
+
+  #a2:hover {
+    color: rgb(20, 155, 56);
   }
 </style>
