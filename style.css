@@ -4,23 +4,10 @@
 body {
   font-size: 14px;
 }
-  
-html, 
-body {
-  width: 1036px;
-  height: 683px;
-  margin: 0;
-  padding: 0;
-}
-  
-.v2_10 {
+.v13_11 {
   width: 100%;
   height: 683px;
-  background: url("../images/v2_10.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 10px;
+  background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
   top: 0px;
@@ -75,8 +62,7 @@ body {
   text-align: center;
 }
 .v2_4 {
-  wabsolute;
-  top: 13px;idth: 103px;
+  width: 103px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 404px;
@@ -95,7 +81,8 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: 
+  position: absolute;
+  top: 13px;
   left: 23px;
   overflow: hidden;
 }
